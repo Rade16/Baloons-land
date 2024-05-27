@@ -1,0 +1,78 @@
+.roadmapPage {
+  overflow: hidden;
+
+  width: 100%;
+  min-height: 1100px;
+  background: #ff8993;
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1350px;
+  }
+
+  &__title {
+    font-size: 128px;
+    text-align: center;
+  }
+  &__notes {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  &__note {
+    padding: 1px;
+    width: 600px;
+    height: 725px;
+    background-image: url(../../assets/RoadmapPage/note.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-list {
+      align-items: center;
+      height: 345px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      margin: 0 auto;
+      width: 415px;
+      margin-top: 200px;
+    }
+  }
+
+  &__apple {
+    animation-name: moveup;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: -10%;
+    right: -10%;
+  }
+
+  &__whale {
+    animation-name: moveup;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+  }
+
+  &__star {
+    animation-name: moveup;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: -20%;
+  }
+}

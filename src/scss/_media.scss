@@ -1,0 +1,1115 @@
+@media (max-width: 3840px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 28%;
+        left: -1%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 21%;
+        left: 20%;
+      }
+      &-nft {
+        position: absolute;
+        top: 73%;
+        left: 16%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 36%;
+        left: 105%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 7%;
+        left: 140%;
+      }
+    }
+  }
+}
+
+@media (max-width: 2560px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 25%;
+        left: 14%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 18%;
+        left: 29%;
+      }
+      &-nft {
+        position: absolute;
+        top: 70%;
+        left: 26%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 33%;
+        left: 85%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 3%;
+        left: 106%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 22%;
+        left: 21%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 16%;
+        left: 33%;
+      }
+      &-nft {
+        position: absolute;
+        top: 67%;
+        left: 31%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 1%;
+        left: 93%;
+      }
+    }
+  }
+}
+@media (max-width: 1560px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 21%;
+        left: 23%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 14%;
+        left: 33%;
+      }
+      &-nft {
+        position: absolute;
+        top: 65%;
+        left: 31%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 30%;
+        left: 74%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 1%;
+        left: 89%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 15%;
+        left: 36%;
+      }
+      &-nft {
+        position: absolute;
+        top: 65%;
+        left: 34%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 28%;
+        left: 70%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+      }
+    }
+  }
+
+  .aboutPage {
+    min-height: 800px;
+    &__title {
+      font-size: 90px;
+    }
+
+    &__fire {
+      width: 200px;
+      height: 200px;
+      top: -20%;
+      right: -5%;
+    }
+
+    &__pepe {
+      width: 200px;
+      height: 200px;
+      top: 100%;
+      left: 5%;
+    }
+
+    &__like {
+      width: 300px;
+      height: 300px;
+      top: -20%;
+      left: -5%;
+    }
+  }
+  .roadmapPage {
+    &__title {
+      font-size: 90px;
+    }
+    &__star {
+      width: 300px;
+      height: 300px;
+      top: 80%;
+      right: 0%;
+    }
+
+    &__whale {
+      width: 200px;
+      height: 200px;
+      top: 70%;
+      left: 0%;
+    }
+
+    &__apple {
+      width: 200px;
+      height: 200px;
+      top: -5%;
+      right: 1%;
+    }
+  }
+  .nftPage {
+    height: 768px;
+    &__title {
+      margin-top: 60px;
+      font-size: 90px;
+    }
+    &__container {
+      height: 768px;
+    }
+
+    &__imagesBlock {
+      width: 100%;
+      height: 525px;
+      &-man {
+      }
+
+      &-icon1 {
+        width: 130px;
+        height: 130px;
+        top: 2%;
+        left: 32%;
+      }
+      &-icon2 {
+        width: 130px;
+        height: 130px;
+        top: 25%;
+        left: 15%;
+      }
+      &-icon3 {
+        width: 130px;
+        height: 130px;
+        top: 43%;
+        left: 57%;
+      }
+      &-icon4 {
+        width: 130px;
+        height: 130px;
+        top: 9%;
+        left: 70%;
+      }
+    }
+  }
+
+  .minigamesPage {
+    &__title {
+      font-size: 90px;
+    }
+  }
+
+  .linksPage {
+    &__title {
+      font-size: 90px;
+    }
+
+    &__container {
+      width: 90%;
+    }
+  }
+}
+@media (max-width: 1560px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 15%;
+        left: 36%;
+      }
+      &-nft {
+        position: absolute;
+        top: 65%;
+        left: 34%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 28%;
+        left: 70%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 0%;
+        left: 90%;
+      }
+    }
+  }
+
+  .aboutPage {
+    min-height: 800px;
+    &__title {
+      font-size: 90px;
+    }
+
+    &__fire {
+      width: 200px;
+      height: 200px;
+      top: -20%;
+      right: -5%;
+    }
+
+    &__pepe {
+      width: 200px;
+      height: 200px;
+      top: 100%;
+      left: 5%;
+    }
+
+    &__like {
+      width: 300px;
+      height: 300px;
+      top: -20%;
+      left: -5%;
+    }
+  }
+  .roadmapPage {
+    &__title {
+      font-size: 90px;
+    }
+    &__star {
+      width: 300px;
+      height: 300px;
+      top: 80%;
+      right: 0%;
+    }
+
+    &__whale {
+      width: 200px;
+      height: 200px;
+      top: 70%;
+      left: 0%;
+    }
+
+    &__apple {
+      width: 200px;
+      height: 200px;
+      top: -5%;
+      right: 1%;
+    }
+  }
+  .nftPage {
+    height: 768px;
+    &__title {
+      margin-top: 60px;
+      font-size: 90px;
+    }
+    &__container {
+      height: 768px;
+    }
+
+    &__imagesBlock {
+      width: 100%;
+      height: 525px;
+      &-man {
+      }
+
+      &-icon1 {
+        width: 130px;
+        height: 130px;
+        top: 2%;
+        left: 32%;
+      }
+      &-icon2 {
+        width: 130px;
+        height: 130px;
+        top: 25%;
+        left: 15%;
+      }
+      &-icon3 {
+        width: 130px;
+        height: 130px;
+        top: 43%;
+        left: 57%;
+      }
+      &-icon4 {
+        width: 130px;
+        height: 130px;
+        top: 9%;
+        left: 70%;
+      }
+    }
+  }
+
+  .minigamesPage {
+    &__title {
+      font-size: 90px;
+    }
+  }
+
+  .linksPage {
+    &__title {
+      font-size: 90px;
+    }
+
+    &__container {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .welcomePage {
+    &__title {
+      width: 400px;
+    }
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 16%;
+        left: 23%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 10%;
+        left: 33%;
+      }
+      &-nft {
+        position: absolute;
+        top: 62%;
+        left: 32%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 26%;
+        left: 70%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 5%;
+        left: 85%;
+      }
+    }
+  }
+
+  .aboutPage {
+    height: 768px;
+    &__title {
+      font-size: 90px;
+    }
+    &__textBlock {
+      &-img {
+        top: -130px;
+      }
+    }
+    &__pepe {
+      width: 150px;
+      height: 150px;
+      top: 100%;
+    }
+    &__fire {
+      width: 150px;
+      height: 150px;
+      top: -20%;
+      right: -1%;
+    }
+
+    &__like {
+      width: 200px;
+      height: 200px;
+      top: -10%;
+      left: 1%;
+    }
+  }
+
+  .roadmapPage {
+    &__title {
+      font-size: 90px;
+    }
+    &__apple {
+      width: 150px;
+      height: 150px;
+      top: -5%;
+      right: 1%;
+    }
+
+    &__star {
+      width: 200px;
+      height: 200px;
+      top: 90%;
+      right: 3%;
+    }
+
+    &__whale {
+      width: 200px;
+      height: 200px;
+      top: 70%;
+      left: 0%;
+    }
+
+    &__notes {
+    }
+    &__note {
+      width: 425px;
+      height: 516px;
+      display: flex;
+      align-items: center;
+      &-list {
+        width: 70%;
+        margin: 0 auto;
+
+        align-items: center;
+      }
+    }
+  }
+
+  .note {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .welcomePage {
+    &__checkPoint {
+      &-about {
+        position: absolute;
+        top: 18%;
+        left: 16%;
+      }
+
+      &-roadmap {
+        position: absolute;
+        top: 11%;
+        left: 28%;
+      }
+      &-nft {
+        position: absolute;
+        top: 62%;
+        left: 26%;
+      }
+      &-minigames {
+        position: absolute;
+        top: 26%;
+        left: 77%;
+      }
+      &-contacts {
+        position: absolute;
+        top: 5%;
+        left: 83%;
+      }
+    }
+  }
+
+  .aboutPage {
+    height: 768px;
+    &__title {
+      font-size: 90px;
+    }
+    &__textBlock {
+      &-img {
+        top: -100px;
+      }
+    }
+    &__pepe {
+      width: 150px;
+      height: 150px;
+      top: 100%;
+    }
+    &__fire {
+      width: 150px;
+      height: 150px;
+      top: -20%;
+      right: -1%;
+    }
+
+    &__like {
+      width: 200px;
+      height: 200px;
+      top: -10%;
+      left: 1%;
+    }
+  }
+
+  .roadmapPage {
+    &__title {
+      font-size: 90px;
+    }
+    &__apple {
+      width: 150px;
+      height: 150px;
+      top: -5%;
+      right: 1%;
+    }
+
+    &__star {
+      width: 200px;
+      height: 200px;
+      top: 90%;
+      right: 3%;
+    }
+
+    &__whale {
+      width: 200px;
+      height: 200px;
+      top: 70%;
+      left: 0%;
+    }
+
+    &__notes {
+    }
+    &__note {
+      width: 425px;
+      height: 516px;
+      display: flex;
+      align-items: center;
+      &-list {
+        width: 70%;
+        margin: 0 auto;
+
+        align-items: center;
+      }
+    }
+  }
+
+  .note {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .nftPage {
+    height: 768px;
+    &__title {
+      margin-top: 60px;
+      font-size: 90px;
+    }
+    &__container {
+      height: 768px;
+    }
+
+    &__imagesBlock {
+      width: 100%;
+      height: 525px;
+      &-man {
+      }
+
+      &-icon1 {
+        width: 130px;
+        height: 130px;
+        top: 2%;
+        left: 32%;
+      }
+      &-icon2 {
+        width: 130px;
+        height: 130px;
+        top: 25%;
+        left: 15%;
+      }
+      &-icon3 {
+        width: 130px;
+        height: 130px;
+        top: 43%;
+        left: 57%;
+      }
+      &-icon4 {
+        width: 130px;
+        height: 130px;
+        top: 9%;
+        left: 70%;
+      }
+    }
+  }
+
+  .minigamesPage {
+    &__title {
+      font-size: 90px;
+    }
+  }
+
+  .linksPage {
+    &__title {
+      font-size: 90px;
+    }
+
+    &__container {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .welcomePage {
+    overflow: hidden;
+    &__container {
+      width: 90%;
+    }
+    &__background {
+      width: 393px;
+    }
+    &__checkPoints {
+      display: none;
+    }
+    &__title {
+      width: 355px;
+      height: 185px;
+    }
+    &__header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 95%;
+      &-logo {
+        width: 168px;
+        height: 64px;
+      }
+    }
+  }
+
+  .aboutPage {
+    overflow: hidden;
+
+    height: 1000px;
+    &__container {
+      width: 90%;
+    }
+
+    &__fire {
+      width: 95px;
+      height: 95px;
+      top: -10%;
+      right: 0;
+    }
+    &__like {
+      display: none;
+    }
+
+    &__pepe {
+      width: 105px;
+      height: 105px;
+      top: 96%;
+      right: 0;
+    }
+
+    &__title {
+      font-size: 48px;
+    }
+    &__textBlock {
+      max-width: 355px;
+      &-img {
+        width: 308px;
+        height: 627px;
+        top: -25%;
+        left: 60%;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .roadmapPage {
+    &__container {
+      width: 90%;
+    }
+    &__title {
+      z-index: 5;
+      font-size: 48px;
+    }
+
+    &__apple {
+      width: 105px;
+      height: 105px;
+      top: -7%;
+      right: -3%;
+    }
+    &__whale {
+      display: none;
+    }
+
+    &__star {
+      display: none;
+    }
+
+    &__notes {
+      flex-direction: column;
+    }
+
+    &__note {
+      width: 355px;
+      height: 436px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__note-list {
+      width: 95%;
+      margin: 0 auto;
+
+      align-items: center;
+    }
+  }
+
+  .note {
+    width: 276px;
+    font-size: 14px;
+  }
+
+  .minigamesPage {
+    height: 850px;
+    background-position: center;
+    &__container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    &__title {
+      margin: 0 auto;
+      margin-top: 40px;
+
+      font-size: 48px;
+    }
+  }
+
+  .nftPage {
+    height: 515px;
+    &__title {
+      font-size: 58px;
+    }
+    &__container {
+      margin: 0 auto;
+      width: 393px;
+      height: 505px;
+    }
+
+    &__imagesBlock {
+      width: 100%;
+      height: 300px;
+      &-man {
+        width: 353px;
+        height: 305px;
+      }
+
+      &-icon1 {
+        width: 68px;
+        height: 68px;
+        top: 1%;
+        left: 25%;
+      }
+      &-icon2 {
+        width: 68px;
+        height: 68px;
+        top: 25%;
+        left: 3%;
+      }
+      &-icon3 {
+        width: 68px;
+        height: 68px;
+        top: 40%;
+        left: 60%;
+      }
+      &-icon4 {
+        width: 68px;
+        height: 68px;
+        top: 5%;
+        left: 75%;
+      }
+    }
+  }
+
+  .linksPage {
+    height: 720px;
+    display: block;
+    background: url(./../assets/LinksPage/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    &__container {
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      text-align: center;
+      font-size: 40px;
+    }
+
+    &__links {
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      height: 250px;
+
+      &-btn {
+      }
+    }
+  }
+}
+
+@media (max-width: 393px) {
+  .welcomePage {
+    overflow: hidden;
+    max-width: 393px;
+    &__container {
+      width: 90%;
+    }
+    &__background {
+      width: 393px;
+    }
+    &__checkPoints {
+      display: none;
+    }
+    &__title {
+      width: 355px;
+      height: 185px;
+    }
+    &__header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 95%;
+      &-logo {
+        width: 168px;
+        height: 64px;
+      }
+    }
+  }
+
+  .aboutPage {
+    overflow: hidden;
+    max-width: 393px;
+    height: 1000px;
+    &__container {
+      width: 90%;
+    }
+
+    &__fire {
+      width: 95px;
+      height: 95px;
+      top: -10%;
+      right: 0;
+    }
+    &__like {
+      display: none;
+    }
+
+    &__pepe {
+      width: 105px;
+      height: 105px;
+      top: 96%;
+      right: 0;
+    }
+
+    &__title {
+      font-size: 48px;
+    }
+    &__textBlock {
+      max-width: 355px;
+      &-img {
+        width: 308px;
+        height: 627px;
+        top: -25%;
+        left: 60%;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .roadmapPage {
+    max-width: 393px;
+    &__container {
+      width: 90%;
+    }
+    &__title {
+      z-index: 5;
+      font-size: 48px;
+    }
+
+    &__apple {
+      width: 105px;
+      height: 105px;
+      top: -7%;
+      right: -3%;
+    }
+    &__whale {
+      display: none;
+    }
+
+    &__star {
+      display: none;
+    }
+
+    &__notes {
+      flex-direction: column;
+    }
+
+    &__note {
+      width: 355px;
+      height: 436px;
+      display: flex;
+      align-items: center;
+    }
+
+    &__note-list {
+      width: 95%;
+      margin: 0 auto;
+
+      align-items: center;
+    }
+  }
+
+  .note {
+    width: 276px;
+    font-size: 14px;
+  }
+
+  .minigamesPage {
+    max-width: 393px;
+    width: 393px;
+    height: 850px;
+    background-position: center;
+    &__container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    &__title {
+      margin: 0 auto;
+      margin-top: 40px;
+
+      font-size: 48px;
+    }
+  }
+
+  .nftPage {
+    max-width: 393px;
+    height: 515px;
+    &__title {
+      font-size: 58px;
+    }
+    &__container {
+      height: 515px;
+    }
+
+    &__imagesBlock {
+      width: 100%;
+      height: 300px;
+      &-man {
+      }
+
+      &-icon1 {
+        width: 68px;
+        height: 68px;
+        top: 1%;
+        left: 25%;
+      }
+      &-icon2 {
+        width: 68px;
+        height: 68px;
+        top: 25%;
+        left: 3%;
+      }
+      &-icon3 {
+        width: 68px;
+        height: 68px;
+        top: 40%;
+        left: 60%;
+      }
+      &-icon4 {
+        width: 68px;
+        height: 68px;
+        top: 5%;
+        left: 75%;
+      }
+    }
+  }
+
+  .linksPage {
+    max-width: 393px;
+    height: 720px;
+    display: block;
+    background: url(./../assets/LinksPage/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container {
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      text-align: center;
+      font-size: 40px;
+    }
+
+    &__links {
+      gap: 30px;
+      justify-content: center;
+      height: 250px;
+      flex-direction: column;
+      &-btn {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

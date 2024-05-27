@@ -1,0 +1,17 @@
+.minigamesPage {
+  padding: 1px;
+  width: 100%;
+  height: 100vh;
+  background: url(../../assets/MinigamesPage/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+  }
+
+  &__title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 128px;
+  }
+}

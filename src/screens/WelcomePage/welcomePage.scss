@@ -1,0 +1,103 @@
+.welcomePage {
+  overflow: hidden;
+  padding: 1px 0 0 0;
+  position: relative;
+  height: 1080px;
+  width: 100%;
+  background: url(../../assets/WelcomePage/background.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  &__container {
+    padding: 1px 0 0 0;
+    position: relative;
+    max-width: 1640px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  &__header {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &-logo {
+      grid-column: 1;
+    }
+    &-buttons {
+      grid-column: 2;
+      display: flex;
+      gap: 30px;
+      margin: 0 auto;
+    }
+
+    &-btn {
+      cursor: pointer;
+      width: 155px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #431134;
+      box-shadow: 0px 0px 2px 1px #431134;
+
+      background: linear-gradient(85.38deg, #da5476 12.89%, #fbcaa2 123.34%);
+
+      border-radius: 100px;
+      &:hover {
+        background: linear-gradient(85.38deg, #d14568 12.89%, #ffbc84 123.34%);
+      }
+      &:active {
+        background: linear-gradient(85.38deg, #be2d52 12.89%, #f79f57 123.34%);
+        transform: translateY(5px);
+      }
+    }
+  }
+
+  &__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__checkPoint {
+    &-about {
+      position: absolute;
+      top: 23%;
+      left: 22%;
+    }
+
+    &-roadmap {
+      position: absolute;
+      top: 15%;
+      left: 33%;
+    }
+    &-nft {
+      position: absolute;
+      top: 67%;
+      left: 31%;
+    }
+    &-minigames {
+      position: absolute;
+      top: 30%;
+      left: 75%;
+    }
+    &-contacts {
+      position: absolute;
+      top: 1%;
+      left: 91%;
+    }
+  }
+
+  &__blur {
+    width: 100%;
+    top: -22.5;
+    position: relative;
+    height: 45;
+    backdrop-filter: blur(13.699999809265137px);
+    filter: blur(15px);
+    background: rgba(138, 138, 138, 0.01);
+  }
+}

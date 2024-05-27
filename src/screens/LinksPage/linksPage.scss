@@ -1,0 +1,49 @@
+.linksPage {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 1px 0 0 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/LinksPage/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    width: 1350px;
+    height: 380px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 126px;
+  }
+
+  &__links {
+    margin-top: 65px;
+    max-width: 480px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+    &-btn {
+      cursor: pointer;
+      width: 230px;
+      height: 80px;
+      border: 1px solid #431134;
+      background: linear-gradient(85.38deg, #da5476 12.89%, #fbcaa2 123.34%);
+      box-shadow: 0px 0px 2px 1px #431134;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      &:hover {
+        background: linear-gradient(85.38deg, #d14568 12.89%, #ffbc84 123.34%);
+      }
+      &:active {
+        background: linear-gradient(85.38deg, #be2d52 12.89%, #f79f57 123.34%);
+        transform: translateY(5px);
+      }
+    }
+  }
+}

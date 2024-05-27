@@ -1,0 +1,105 @@
+.aboutPage {
+  overflow: hidden;
+  width: 100%;
+  min-height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ff8993;
+  padding: 1px 0 0 0;
+
+  &__container {
+    position: relative;
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 128px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  &__textBlock {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 65px;
+    max-width: 70%;
+    background: #da5476;
+    border-radius: 20px;
+    border: 3px solid #431134;
+    &-text {
+      font-family: "Unbounded";
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &-img {
+      width: 30%;
+      top: -150px;
+      left: 85%;
+      position: absolute;
+      animation-name: moveup2;
+      animation-duration: 2000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+  }
+
+  &__like {
+    position: absolute;
+    top: -30%;
+    left: -20%;
+
+    animation-name: moveup;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  &__fire {
+    animation-name: moveup;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: -15%;
+    right: -15%;
+  }
+  &__pepe {
+    animation-name: moveup;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 130%;
+    left: 0%;
+  }
+}
+
+@keyframes moveup {
+  from {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(10px) rotate(10deg);
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+
+@keyframes moveup2 {
+  from {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
